@@ -1,0 +1,124 @@
+.publications-section {
+  background-color: #fff;
+}
+
+.publications-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: var(--secondary-color);
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover, .filter-btn.active {
+  background-color: var(--accent-color);
+  color: white;
+  border-color: var(--accent-color);
+}
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.publication-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.8rem;
+  box-shadow: var(--card-shadow);
+  transition: var(--hover-transition);
+  border-top: 3px solid transparent;
+}
+
+.publication-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
+  border-top: 3px solid var(--accent-color);
+}
+
+.publication-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.publication-authors {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.publication-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+}
+
+.publication-venue {
+  font-weight: 500;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.publication-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
+.publication-btn {
+  background: transparent;
+  border: 1px solid #e2e8f0;
+  color: var(--secondary-color);
+  padding: 0.35rem 0.85rem;
+  font-size: 0.85rem;
+  border-radius: 50px;
+  transition: var(--hover-transition);
+  font-weight: 500;
+}
+
+.publication-btn:hover {
+  background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+  color: white;
+  border-color: var(--accent-color);
+  transform: translateY(-1px);
+}
+
+.publications-more {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .publication-details {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .publication-links {
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+  }
+}
