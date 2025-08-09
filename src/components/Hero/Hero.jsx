@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 import './Hero.css';
-import myPhoto from '../../assets/my-photo.JPG';
+import myPhoto from '../../assets/my-photo.jpg';
 
 const Hero = () => {
   return (
