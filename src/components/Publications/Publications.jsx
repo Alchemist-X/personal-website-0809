@@ -6,20 +6,20 @@ const Publications = () => {
   const publications = [
     {
       id: 1,
-      title: "BargainBench: A benchmark for seller proxy in online fleamarket",
-      conference: "Working Paper",
+      title: "Evaluating Multi-Turn Bargain Skills in LLM-Based Seller Agent",
+      conference: "NeurIPS 2025 Workshop (under review)",
       year: 2025,
-      authors: "Jiaxin Zhuang, Xiaofeng Wang and Shuguang Han",
-      doi: "10.xxxx/arxiv.2023.xxxx",
+      authors: "Issue Yishu Wang, Kakam Chong, Xiaofeng Wang, Xu Yan, DeXin Kong, Chen Ju, Ming Chen, Shuai Xiao, Shuguang Han, Jufeng Chen",
+      doi: "10.48550/arxiv.2509.06341",
       type: "conference"
     },
     {
       id: 2,
-      title: "Gambling Addiction: Finding and evidence from online casino",
-      conference: "Working Paper",
+      title: "Gambling Addiction: Finding and Evidence From Online Casino",
+      conference: "Working Paper (Management Science submission)",
       year: 2025,
-      authors: "Yingda Zhai, Hanyang Tang",
-      doi: "10.xxxx/arxiv.2023.xxxx",
+      authors: "Yingda Zhai, Issue Yishu Wang, Hanyang Tang",
+      doi: "working-paper",
       type: "conference"
     }
   ];
