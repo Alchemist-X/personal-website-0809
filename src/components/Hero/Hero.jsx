@@ -33,9 +33,9 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            I am broadly interested in EconCS, mechanism design and multi-agent learning. I received my BEng in Computer Engineering from 
-            the University of Hong Kong, and I am expecting an MS in Financial Econometrics from Johns Hopkins University.
-            My research focuses on market mechanism design and empirical studies of online marketplaces and user behaviors.
+            I study the intersection of economics and computer science, with current work on: (1) scaling AI decision-making in business via ML, 
+            (2) mechanism design for online platforms and blockchain participation, and (3) venture capital dynamics and firm growth.
+            I received my BEng in Computer Engineering from the University of Hong Kong and am pursuing an MS in Financial Econometrics at Johns Hopkins University.
           </motion.p>
           <motion.div 
             className="hero-buttons"
